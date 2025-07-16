@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background: rgb(59, 74, 95);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url('../img/image.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  filter: sepia(0.5) hue-rotate(-10deg) opacity(0.3);
+  z-index: -1; 
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent; 
+  padding: 1rem 2rem;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.name-text {
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #ffffff;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+.menu {
+  display: flex;
+  gap: 1.5rem;
+  background: #5989ad;
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgb(255, 255, 255);
+  flex-wrap: wrap;
+}
+
+.btn {
+  background: transparent;
+  color: white;
+  font-size: 1rem;
+  font-family: monospace;
+  font-weight: bold;
+  padding: 0.4rem 1.2rem;
+  border-radius: 50px;
+  border: none;
+  text-decoration: none;
+  transition: all 200ms ease;
+  box-shadow: none;
+  width: auto;
+  text-align: center;
+  position: relative;
+}
+
+.btn:hover {
+  background: #0e369a89;
+  color: #094754;
+  box-shadow: 0 0 10px rgba(72, 106, 220, 0.5);
+}
+
+.btn:active {
+  transform: scale(0.96);
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.hobbies-skills-section {
+  padding: 6rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+}
+
+.card-row {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.hobby-card,
+.skill-card {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 1rem;
+  border-radius: 12px;
+  color: white;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: 3px solid #ccc;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.hobby-card:hover,
+.skill-card:hover {
+  transform: scale(1.05);
+  border-color: #9efff9;
+}
+
+.card-img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 0.8rem;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.hobby-card p,
+.skill-card p {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.footer-logo {
+  width: 60px;
+  height: auto;
+  filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.6));
+  transition: transform 0.3s ease-in-out;
+}
+
+.footer-logo:hover {
+  transform: scale(2.03);
+  size: 10%;
+}
