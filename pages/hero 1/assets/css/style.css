@@ -121,7 +121,13 @@ body::before {
   max-width: 100%;
   border-radius: 1rem;
   margin: 1rem 0;
+  transition: transform 0.6s;
 }
+
+.left-card .card-img1:hover {
+  transform: rotateY(180deg);
+}
+
 
 .fancy-line {
   font-family: 'Georgia', 'Times New Roman', serif;
@@ -139,7 +145,7 @@ body::before {
 .left-card .name {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #746af5;
+  color: white;
   text-shadow: 0 0 10px rgba(105, 103, 103, 0.7);
 } 
 
@@ -187,7 +193,7 @@ body::before {
 
 .card3 {
   background: rgba(0, 255, 60, 0.1);
-  border: 4px dotted lime;
+  border: 2px solid lime;
   color: white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   box-shadow: 0 0 25px rgba(80, 239, 104, 0.662);
@@ -197,7 +203,12 @@ body::before {
   background: rgba(50, 255, 150, 0.1);
   border: 2px solid lime;
   color: white;
+  font-family: 'Times New Roman', Times, serif;
   box-shadow: 0 0 45px rgba(50, 255, 150, 0.4);
+}
+
+.card-img4:hover {
+  transform: scale(1.53);
 }
 
 .card5 {
@@ -224,7 +235,7 @@ body::before {
 }
 
 .card-img5:hover {
-  transform: scale(1.03);
+  transform: scale(2.00);
 }
 
 
@@ -237,7 +248,7 @@ body::before {
 }
 
 .card-text {
-  flex: 1;
+  flex: 2;
 }
 
 .card-img3,
@@ -270,7 +281,7 @@ body::before {
   padding: 1.5rem;
   border-radius: 12px;
   backdrop-filter: blur(10px);
-  border: 2px solid #a4f3ff;
+  border: 2px dashed #a4f3ff;
   box-shadow: 0 0 25px rgba(164, 243, 255, 0.3);
   width: 100%;
   text-align: center;
@@ -291,7 +302,7 @@ body::before {
   background: rgba(255, 255, 255, 0.05);
   padding: 1rem;
   border-radius: 12px;
-  border: 2px solid #ffcbcb;
+  border: 2px solid #60e3b9;
   box-shadow: 0 0 20px rgba(255, 200, 200, 0.3);
   width: 100%;
   text-align: center;
@@ -300,5 +311,17 @@ body::before {
 .cert-image-card img {
   width: 100%;
   border-radius: 10px;
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.861);
+}
+
+.footer-logo {
+  width: 60px;
+  height: auto;
+  filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.6));
+  transition: transform 0.3s ease-in-out;
+}
+
+.footer-logo:hover {
+  transform: scale(2.03);
+  size: 10%;
 }
