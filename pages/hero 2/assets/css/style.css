@@ -118,7 +118,7 @@ body::before {
 
 .label-card:hover {
   transform: scale(1.05);
-  border-color: #000dfa;
+  border-color: #0f17b1;
 }
 
 .label-card h2 {
@@ -159,8 +159,8 @@ body::before {
 
 .hobby-card:hover,
 .skill-card:hover {
-  transform: scale(1.05);
-  border-color: #9efff9;
+  transform: scale(1.12);
+  border-color: #9bfff7;
 }
 
 .card-img {
@@ -169,7 +169,7 @@ body::before {
   object-fit: cover;
   border-radius: 10px;
   margin-bottom: 0.8rem;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px rgba(0, 8, 255, 0.548);
 }
 
 .hobby-card p,
