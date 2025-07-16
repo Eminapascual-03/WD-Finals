@@ -1,7 +1,16 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background: rgb(57, 91, 138);
+    flex-direction: column;
+    min-height: 100vh; 
+    align-items: center;
+    justify-content: space-between; 
 }
 
 .hero-background {
@@ -15,48 +24,136 @@
   overflow: hidden;
 }
 
-.header {
-    /* width: calc(100vw - rem);  */
-    display: flex;
-    justify-content: flex-end;
-    padding: 2rem 1rem;
-    gap: 3rem;
-    color: black;
-    height: fit-content;
-    z-index: 10;
-}
-
-.header .btn {
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.301);
-    font-size: 1.2rem;
-    border: 3px solid rgba(0, 17, 255, 0.212);
-    padding: 0.2rem 0.5rem;
-    border-radius: 3px;
-    font-weight: 700;
-    text-decoration: none;
-    /* color: var(--color-primary-1); */
-    color: black; 
-    overflow: visible;
-    transition: all 0.2s ease;
-    position: relative;
-}
-
-.header .btn.active {
-    background: rgba(255, 255, 255, 0.479);
-}
-
-.header .btn::before {
+.hero-background::before {
+    content: "";
     position: absolute;
-    width: 10px;
-    height: 50px;
+    inset: 0; 
     z-index: -1;
-    background: rgba(115, 159, 255, 0.1);
-    display: block;
-    content: '';
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    transform: skew(20deg) translateY(-5px) translateX(40px);
-    transition: all 0.2s ease;
+    background-image: url('../img/blue\ rose.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    filter: sepia(0.5) hue-rotate(-10deg) opacity(0.3);
 }
 
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: lightcyan;
+  padding: 1rem 0.5rem;
+  gap: 0.5rem;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between; /* Spread buttons out */
+  width: 100%;                    /* Full width of header */
+  max-width: 1000px;              /* Optional: control max spread */
+}
+
+
+.btn {
+  background: linear-gradient(to right, #2e8b57, #3cb371); /* green gradient */
+  color: #edf7f2;
+  font-size: 1rem;
+  font-family: cursive;
+  padding: 0.4rem 1.2rem;
+  border-radius: 10px;
+  border: 2px dashed #1a3d2c;
+  text-decoration: none;
+  transition: all 200ms ease;
+  box-shadow: 2px 4px 10px rgb(64, 66, 64);
+  width: 120px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn:hover {
+  background: linear-gradient(to right, #3cb371, #2e8b57);
+  color: #0a4d1f;
+  box-shadow: 0 0 10px #2c9763;
+}
+
+.btn:active {
+  transform: scale(0.96);
+  box-shadow: 0 0 0 3px #edf7f2, 0 0 10px #2c9763 inset;
+}
+
+.main-content {
+    flex-grow: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    padding: 2rem 3rem; 
+    width: 100%;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    text-align: center; 
+}
+
+.top .course {
+    font-size: 3rem;
+    letter-spacing: 0.8rem;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.top .title {
+    font-size: 7rem;
+    letter-spacing: 1.5rem;
+}
+
+.top .subtitle {
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1rem;
+}
+
+.hero-content-1 {
+    text-align: center;
+}
+
+.footer-logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 0.3rem;
+  border-radius: 10px;  
+  z-index: 5;
+}
+
+.bottom {
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+    color: white;
+    z-index: 10; 
+}
+
+.bottom .year {
+    font-weight: 300;
+}
