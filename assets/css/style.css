@@ -120,7 +120,7 @@ body::before {
   font-size: 3rem;
   letter-spacing: 0.8rem;
   font-weight: 500;
-  font-family: 'Cinzel', serif; /* Elegant serif */
+  font-family: 'Cinzel', serif; 
   color: #e0e8ff;
   text-shadow: 2px 2px 8px rgb(9, 9, 224);
 }
@@ -128,10 +128,10 @@ body::before {
 @keyframes floatGlow {
   0% {
     transform: translateY(0);
-    text-shadow: 0 0 8px rgba(114, 153, 199, 0.4);
+    text-shadow: 0 0 8px rgba(223, 232, 243, 0.769);
   }
   50% {
-    transform: translateY(-10px);
+    transform: translateY(-15px);
     text-shadow: 0 0 16px rgba(212, 226, 241, 0.868);
   }
   100% {
