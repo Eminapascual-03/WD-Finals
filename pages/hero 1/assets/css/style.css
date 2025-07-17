@@ -199,6 +199,10 @@ body::before {
   box-shadow: 0 0 25px rgba(80, 239, 104, 0.662);
 }
 
+.card-img3:hover {
+  transform: scale(1.53);
+}
+
 .card4 {
   background: rgba(50, 255, 150, 0.1);
   border: 2px solid lime;
@@ -208,7 +212,7 @@ body::before {
 }
 
 .card-img4:hover {
-  transform: scale(1.53);
+  transform: scale(1.2);
 }
 
 .card5 {
@@ -235,7 +239,7 @@ body::before {
 }
 
 .card-img5:hover {
-  transform: scale(2.00);
+  transform: scale(1.2);
 }
 
 .card6 {
