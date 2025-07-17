@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/Eminapascual-03/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/blue rose.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">WD-Finals</h3>
@@ -23,6 +23,7 @@
 ![](https://visit-counter.vercel.app/counter.png?page=Eminapascual-03/WD-Finals)
 
 [![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
+https://wakatime.com/dashboard
 
 ---
 
@@ -62,23 +63,18 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+This personal portfolio website has five pages that showcase my background, skills, organizations, and projects. Its purpose is to introduce myself professionally and creatively. It uses HTML for structure, CSS for design, and GitHub to link my projects. Each page is styled with visuals and interactive elements to make it engaging and easy to navigate.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
+- 5 page portfolio website
 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -119,4 +115,8 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| FEU Tech | Logo | https://www.facebook.com/photo/?fbid=564592095830969&set=a.491944883095691 |
+| Freshman Society  | Logo | https://www.facebook.com/photo/?fbid=890342733134717&set=a.464777269024601 |
+| TVL Club  | Logo | https://www.facebook.com/photo/?fbid=564592095830969&set=a.491944883095691 |
+| Tomas Claudio Colleges  | Logo | https://www.facebook.com/photo/?fbid=454894746852023&set=a.355978873410278 |
+| Research Society  | Logo | https://www.facebook.com/photo/?fbid=378154968068787&set=a.303997112151240 |
